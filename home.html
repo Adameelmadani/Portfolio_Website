@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Adam El Madani</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Adam El Madani<br />a</span>  Backend Software Engineer
+          </h1>
+          <p class="description">
+            Welcome to my portfolio! I'm Adam, a highly skilled and creative full-stack software engineer specialized
+            in backend development. With a passion for crafting beautiful, responsive, and user-friendly web applications,
+            I've contributed to a diverse array of projects. Feel free to reach out to me for any inquiries or opportunities.
+            Let's build something amazing together!
+          </p>
+          <div class="action__btns">
+            <button onclick="window.location.href='#contact'" class="hire__me">Hire Me</button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="assets/profile.jpg" alt="profile" />
+        </div>
+      </div>
+      <div id="projects" class="projects">
+        <div class="div-big-title"><p class="big-title">My Latest Projects</p></div>
+        <div class="cards">
+          <div class="card-div">
+            <img class="card-pic" src="assets/easybus.png" alt="easybus">
+            <p class="card-title">EasyBus Web App</p>
+            <p class="card-p">Get real-time bus routes, timings, and stops with EasyBus, our user-friendly app for seamless trip planning and tracking.
+              Plan, find, and ride effortlessly.
+            </p>
+            <button onclick="window.location.href='#'" class="card-button">Soon</button>
+          </div>
+          <div class="card-div">
+            <img class="card-pic" src="assets/gahub.png" alt="gahub">
+            <p class="card-title">GAHub Web App</p>
+            <p class="card-p">Streamline your business with GAHub, offering collaborative workspaces, GitHub-style version control, and Excel-like data
+              management. Collaborate and innovate effortlessly.
+            </p>
+            <button onclick="window.location.href='#'" class="card-button">Soon</button>
+          </div>
+          <div class="card-div">
+            <img class="card-pic" src="assets/airbnb.jpeg" alt="airbnb">
+            <p class="card-title">Airbnb clone</p>
+            <p class="card-p">Discover unique accommodations worldwide with our AirBnB clone, offering user-friendly booking and secure transactions.
+              Explore, book, and enjoy personalized travel experiences effortlessly.
+            </p>
+            <button onclick="window.location.href='#'" class="card-button">Soon</button>
+          </div>
+        </div>
+      </div>
+      <div id="contact" class="contact">
+        <div class="div-big-title"><p class="big-title">Contact me</p></div>
+        <div class="div-contacts">
+          <div class="contact-div" id="contact-div1">
+            <a href="mailto:adamelmadani0129@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+          <div class="contact-div">
+            <a href="https://www.linkedin.com/in/adam-elmadani/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <div class="contact-div">
+            <a href="https://github.com/Adameelmadani" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+          </div>
+          <div class="contact-div">
+            <a href="https://twitter.com/AdamElmadani_" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+          </div>
+          <div class="contact-div">
+            <a href="https://www.instagram.com/adam.eelmadani/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+          </div>
+          <div class="contact-div">
+            <a href="https://www.facebook.com/adam.elmadani.927" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
